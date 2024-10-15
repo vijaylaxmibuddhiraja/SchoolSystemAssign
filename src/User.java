@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 abstract class User {                   // making the class as a superclass
     private String username;            //encapsulation
     private String password;
 
-    public User(String username, String password){
+    public User(String username, String password) {
         this.username = username;
         this.password = password;    //constructor
     }
@@ -17,7 +20,7 @@ abstract class User {                   // making the class as a superclass
         this.username = username;
     }
 
-    public String getPassword(){
+    public String getPassword() {
         return password;
     }
 
@@ -29,8 +32,7 @@ abstract class User {                   // making the class as a superclass
         return this.password.equals(password);
     }
 
-    public abstract void menu();              // abstract method
-    public abstract void viewInformation();
+    public abstract void showMenu();              // abstract method
 
 }
 
