@@ -21,7 +21,7 @@ class Teacher extends User {
             System.out.println("5.Logout");
 
 
-            System.out.println("Select an option");
+            System.out.println("Select an option: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
 
