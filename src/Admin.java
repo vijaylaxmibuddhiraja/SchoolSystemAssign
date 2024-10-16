@@ -9,6 +9,7 @@ class Admin extends User {
         this.users = new ArrayList<>();
     }
 
+
     @Override
     public void showMenu() {
         Scanner scanner = new Scanner(System.in);
