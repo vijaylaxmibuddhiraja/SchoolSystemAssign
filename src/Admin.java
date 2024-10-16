@@ -105,6 +105,22 @@ class Admin extends User {
         System.out.println("Divide Users into groups");
 
     }
+
+    @Override
+    public void viewInformation(){
+        System.out.println("Admin Info: ");
+        System.out.println("Username: " + this.getUsername());
+        System.out.println("Total Users:" + users.size());
+        System.out.println("list of Users: ");
+        for(User user:users){
+            System.out.println("-" + user.getUsername()+ " ( " + user.getRole() + ")");
+        }
+    }
+
+    @Override
+    public String getRole() {
+        return "Admin";
+    }
 }
 
 

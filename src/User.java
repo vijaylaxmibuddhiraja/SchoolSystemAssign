@@ -32,7 +32,9 @@ abstract class User {                   // making the class as a superclass
         return this.password.equals(password);
     }
 
-    public abstract void showMenu();              // abstract method
+    public abstract void showMenu();
+    public abstract void viewInformation();
+    public abstract String getRole();     // abstract method
 
 }
 
