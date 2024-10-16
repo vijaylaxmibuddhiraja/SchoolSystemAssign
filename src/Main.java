@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            Admin admin = new Admin("Admin", "superbusy_2024");
+            Admin admin = new Admin("Amitabh Bacchan", "superbusy_2024");
             Teacher teacher = new Teacher("Stefi Graff", "Iamthebest");
             Student student = new Student ("Maria Sharapova", "whythiskolaveriD");
             
