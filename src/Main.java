@@ -6,8 +6,7 @@ public class Main {
         LoginUser loginUser = new LoginUser();
         loginUser.authentication();
     }
-
-    }
+}
            /* Scanner scanner = new Scanner(System.in);
 
           /*  Admin admin = new Admin("Amitabh Bacchan", "superbusy_2024");
