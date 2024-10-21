@@ -63,12 +63,10 @@ public class UserData {
         }
     }
 
-   /* public void displayAllUsers() {
+    public void displayAllUsers() {
         for (User user : users) {
             System.out.println("Username: " + user.getUsername() + ", Role: " + user.getRole());
         }
-    }*/
-
-
+    }
 }
 
