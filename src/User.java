@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Scanner;
 
 abstract class User {                   // making the class as a superclass
     private String username;            //encapsulation
@@ -11,30 +9,31 @@ abstract class User {                   // making the class as a superclass
     }
 
     // getter and setter method
-
     public String getUsername() {
         return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
 
-    public boolean checkPassword(String password) {
-        return this.password.equals(password);
+    public boolean checkPassword(String inputPassword) {
+        return this.password.equals(inputPassword);
     }
 
-    public abstract void showMenu();
-    public abstract void viewInformation();
-    public abstract String getRole();     // abstract method
+    public abstract String getRole();
+
+    /*public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }*/
+
+
+
+       // abstract method
 
 }
 

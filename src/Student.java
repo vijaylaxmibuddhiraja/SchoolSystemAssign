@@ -6,6 +6,11 @@ class Student extends User {
     }
 
     @Override
+    public String getRole(){
+        return "Student";
+    }
+}
+    /*@Override
     public void showMenu() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -66,7 +71,7 @@ class Student extends User {
     public void giveRating(Scanner rating) {
         System.out.println("Your rating: " + rating);
     }
-}
+}*/
 
 
 

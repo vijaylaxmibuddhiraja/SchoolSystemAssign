@@ -9,8 +9,14 @@ class Admin extends User {
         this.users = new ArrayList<>();
     }
 
-
     @Override
+    public String getRole() {
+        return "Admin";
+    }
+}
+
+
+    /*@Override
     public void showMenu() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -116,13 +122,8 @@ class Admin extends User {
         for(User user:users){
             System.out.println("-" + user.getUsername()+ " ( " + user.getRole() + ")");
         }
-    }
+    }*/
 
-    @Override
-    public String getRole() {
-        return "Admin";
-    }
-}
 
 
 

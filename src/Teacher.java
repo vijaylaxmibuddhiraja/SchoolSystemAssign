@@ -10,6 +10,12 @@ class Teacher extends User {
     }
 
     @Override
+    public String getRole() {
+        return "Teacher";
+    }
+}
+
+   /* @Override
     public void showMenu() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -73,11 +79,7 @@ class Teacher extends User {
 
         System.out.println("User not found");
 
-    }
+    }*/
 
-    @Override
-    public String getRole() {
-        return "Teacher";
-    }
-}
+
 
