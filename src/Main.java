@@ -3,9 +3,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+        LoginUser loginUser = new LoginUser();
+        loginUser.authentication();
+    }
 
-            Admin admin = new Admin("Amitabh Bacchan", "superbusy_2024");
+    }
+           /* Scanner scanner = new Scanner(System.in);
+
+          /*  Admin admin = new Admin("Amitabh Bacchan", "superbusy_2024");
             Teacher teacher = new Teacher("Stefi Graff", "Iamthebest");
             Student student = new Student ("Maria Sharapova", "whythiskolaveriD");
             
@@ -45,8 +50,8 @@ public class Main {
 
         System.out.println("Program ends");
             scanner.close();
-        }
-    }
+        }*/
+
 
 
 
